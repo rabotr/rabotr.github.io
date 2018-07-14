@@ -2,28 +2,126 @@
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Rabia S. Otry</title>
+  <title>Population, Mortality, Patient Experience</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://bootswatch.com/4/journal/bootstrap.min.css">
+  <script src="navbar.js"></script>
 </head>
-<div class="header">
-    <a href="#default" class="logo">Rabia S. Otry</a>
-    <div class="header-right">
-      <a class="active" href="#home">Home</a>
-      <a target="_blank" href="https://meritpages.com/rsotry">About</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </div>
+
 <body>
-<!-- * A header that will store your name inside of it -->
-  <hr>
-  <h1>Home</h1>
-  <hr>
-<!-- * An image that will act as a stand-in for your picture with an `alt` attribute which gives a very basic description of the image -->
-  <img width="25%" src="images/portugal_rocks.jpg" title="Rabia in Portugal" alt="portugal_rocks">
-<!-- * Two paragraphs that will have text describing who you are -->
-  <p>Please don't mind the mess. This website is currently under construction. Rabia likes to do things with people in places.</p>
-  <p>More to come...</p>
+<!-- navbar and header -->
+    <div class="header">
+        <div class="row">
+            <h1>Understanding Relationships Between Hospital, Population Size, and Outcomes: Mortality and Patient Experience in US Counties</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="Project_1/heart.png" alt="heart pattern" width=150px height=150px>
+            </div>
+            <div class="col-md-3">
+                <img src="Project_1/testtube.png" alt="test tubes" width=150px height=150px>
+            </div>
+            <div class="col-md-3">
+                <img src="Project_1/bottles.png" alt="bottles" width=150px height=150px>
+            </div>
+            <div class="col-md-3">
+                <img src="Project_1/image.png" alt="image" width=150px height=150px>
+            </div>
+        </div>
 
+    </div>
+    <div class="row">
+        <div class="container">
+            <div class="navbar">
+                <a class="active" href="index.html">About</a>
+                <a href="data.html">Data</a>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Visualizations</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="background.html">Background</a></li>
+                        <a href="q1.html">Question 1</a>
+                        <a href="q2.html">Question 2</a>
+                        <a href="q3.html">Question 3</a>
+                        <a href="comparisons.html">Comparisons</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- home body text -->
+<hr>
+  <article>
+      <h2>Introduction</h2>
+      <p>
+        The United States has focused on decreasing healthcare costs. US spending is the <strong>most expensive in the world</strong>, 
+        with costs projected to rise through 2020. Data showed that in 2013, the US spent approximately <strong>17% of its gross domestic 
+        product (GDP) on healthcare</strong>, which is significantly higher than health care spending in other countries. Despite high health 
+        care spending, the US shows <strong>poorer results</strong> for certain health care outcomes compared with other countries e.g. lower 
+        life expectancy.
+      </p>
+      <p>
+        The <strong>Affordable Care Act (ACA) enacted and signed into law in 2010,</strong> has made many changes to reimbursements in healthcare. 
+        One involved linking part of hospital pay to Patient Experience/Customer Satisfaction scores. In 2012, Centers of Medicare and Medicaid Services, 
+        the largest single payor for healthcare, has started to <strong>modify payments based on quality performance/outcomes.</strong> This included how 
+        hospitals score on <a target="_blank" href="http://www.hcahpsonline.org/">Hospital Consumer Assessment of Healthcare Providers and Systems (HCAHPS)</a>, first national, 
+        standardized, publicly-reported survey of patients' perspectives of hospital care.
+      </p>
+      <p>
+        The pressure on hospital finances has driven some<strong> hospitals to close or consolidate and streamline to improve on overall performance.</strong>
+        With hospitals capability to directly impact outcomes in their service areas, it is equally critical to understand <strong>impact of their presence on 
+        Mortality Rate.</strong> The objective of our study is to explore relationships between <strong>Patient Experience rating, Mortality Rate, and Number 
+        of Hospitals by County.</strong>
+      </p>
+      <hr>
+  </article>
+  <article>
+      <h2>Research Questions</h2>
+      <p>
+          <i>How do patient experience rating and mortality rate relate to population size and number of survey response?</i>
+        </p>
+        <p>
+            <ol>
+                <li>
+                    Is there a direct relationship between Number of Hospitals and Population Size? (<a href="q1.html">Q1 Results</a>)
+                    </li>
+                <li>
+                    Does Number of Hospitals serving the population affect Hospital Patient Experience? (<a href="q2.html">Q2 Results</a>)
+                    <br>
+                    a. Does Population Size affect Hospital Patient Experience?
+                    <br>
+                    b. Does Number  of Survey Responses affect Hospital Patient Experience? 
+                </li>
+                <li>
+                    Does Number of Hospitals serving the population affect Mortality Rate? (<a href="q3.html">Q3 Results</a>)
+                    <br>
+                    a. Does Population Size affect Mortality Rate?
+                    <br>
+                    b. Does Number of Hospitals affect Mortality Rate?
+                </li>
+            </ol>
+        </p>
+      <hr>
+  </article>
+  <article>
+      <h2>Scope & Limitations</h2>
+      <p>
+          <ul>
+              <li>
+                  Findings will be presented for  counties in the US and for year 2016 only. (<a href="data.html">Data</a>)
+                </li>
+                <li>
+                    Hospital bed count per county not factored into the analysis.
+                </li>
+          </ul>
+      </p>
+      <hr>
+  </article>
+  <article>
+    <h4>Authors</h4>
+    <p> Project completed by: Rabia Otry, Angang Li, Rohan Mohindroo, and Vilma Santos
+    <br>
+    Website by: Rabia Otry</p>
+    <p> (c) 2018 </p>
+</article>
 </body>
-
 </html>
